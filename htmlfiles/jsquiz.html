@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz</title>
+    <link rel="stylesheet" href="htmlstyle.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+	<div class="home-box custom-box">
+		<h3>INSTRUCTIONS</h3>
+		<p>Total number of questions:<span class="total-question">5</span></p>
+		<button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+	</div>
+	
+	<div class="quiz-box custom-box hide">
+		<div class="question-number">
+			
+		</div>
+		<div class="question-text">
+		
+		</div>
+		<div class="option-container">
+			
+		</div>
+		<div class="next-question-button">
+			<button type="button" class="btn" onclick="next()">Next Question</button>
+		</div>
+		<div class="answers-indicator">
+			
+		</div>
+	</div>
+	<div class="result-box custom-box hide">
+		<h1>Quiz Results</h1>
+		<table>	
+			<tr>
+				<td>Total Questions</td>
+				<td><span class="total-question"></span></td>
+			</tr>
+			<tr>
+				<td>Number of questions attempted</td>
+				<td><span class="total-attempt"></span></td>
+			</tr>
+			<tr>
+				<td>Answered Correctly</td>
+				<td><span class="total-correct"></span></td>
+			</tr>
+			<tr>
+				<td>Answered Incorrectly</td>
+				<td><span class="total-wrong"></span></td>
+			</tr>
+			<tr>
+				<td>Your Total Score</td>
+				<td><span class="total-score"></span></td>
+			</tr>
+		</table>
+		<button type="button" class="btn" onclick="tryAgainQuiz()">Retry</button>
+		<button type="button" class="btn" onclick="goToHome()">Go to Home</button>
+	</div>
+	<script src="js/jsque.js"></script>
+	<script src="js/jsapp.js"></script>
+</body>
+</html>
