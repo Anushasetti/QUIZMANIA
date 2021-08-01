@@ -1,0 +1,189 @@
+body{
+	background-color: #008080;
+}
+*{
+	margin:0px;
+	padding :0px;
+	box-sizing :box-border;
+}
+nav{
+	display : flex;
+	justify-content : space-around;
+	align-items : center;
+	background-color : #ededed;
+	min-height : 10vh;
+}
+.logo{
+	font-size : 25px;
+	font-family : Georgia;
+	font-weight : bold;
+	color : #008080;
+	float :left;
+}
+.nav-links{
+	display: flex;
+  justify-content : space-around;
+  letter-spacing : 1px;
+  float : right;
+  width : 28%;
+}
+.nav-links li{
+	list-style : none;
+}
+.nav-links a{
+	color :#008080; 
+	font-weight : normal;
+	text-decoration : none;
+	transition: transform 0.3s;
+}
+.nav-links a:hover{
+	background-color : #008080;
+	color : white;
+}
+
+@media screen and (max-width:1024px){
+	.nav-links{
+		width : 60%;
+	}
+}
+#quizes{
+	color : white;
+	font-weight : bold;
+	text-align : center;
+	font-size: 40px;
+	font-family : Georgia;
+}
+.container{
+	justify-content : space around;
+	margin : center;
+	text-align : center;
+}
+
+.banner{
+	height :100vh;
+	width : 100%;
+	background-image : linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(image_1.jpg);
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-position : center;
+	background-attachment : fixed;
+}
+.content{
+	width : 100%;
+	position : absolute;
+	top : 50%;
+	transform :  translateY(-50%);
+	text-align : center;
+	color : white;
+	font-weight : bold;
+	font-size : 25px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button{
+	width :200px;
+	padding :15px 0;
+	text-align : center;
+	margin : 20px 10px;
+	border-radius : 25px;
+	font-weight : bold;
+	border : 2px solid white;
+	background : transparent;
+	color : white;
+	cursor : pointer;
+	transition : transform 0.3s;
+}
+button:hover{
+	background-color: #8f8f8f;
+  color: white;
+}
+.card-deck{
+	display :  flex;
+}
+.card-footer{
+	font-weight : bold;
+	color : white;
+	font-size : 20px;
+}
+.card-body text-center p{
+	margin-left : 10px;
+	margin-top : 30px;
+	text-align : right-side;
+	justify-content:space-around;
+	font-weight : bold;
+	color : white;
+	font-size : 20px;
+}
+#first_page_button{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  transition: 0.3s;
+}
+#first_page_button:hover {
+  background-color: #8f8f8f;
+  color: white;
+}
+h1{
+	text-align:center;
+	color : #008080;
+	font-family:Georgia;
+	font-size: 40px;
+	font-weight : bold;
+}
+#facilities{
+	background-color : #C0C0C0;
+	padding : 30px 0px;
+}
+h1{
+	text-align:center;
+	color : #008080;
+	font-family:Georgia;
+	font-size: 40px;
+	font-weight : bold;
+}
+#facilities h1{
+	padding-bottom : 5px;
+	font-size : 25px;
+	font-weight : bold;
+}
+.row{
+	display : flex;
+	text-align : center;
+	margin-left : 46px;
+}
+.title{
+	text-align : center;
+	padding : 25px 0px;
+}
+.card-body{
+	box-shadow : 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.card{
+	margin : 20px 10px;
+}
+.card-body 	h5{
+	color : white;
+	margin-top:auto;
+	font-size:20px;
+}
+.card-body 	p{
+	color : #008080;
+	margin-top:auto;
+	font-size:15px;
+	margin-right : 10px;
+}
+.card-body a{
+	text-decoration : none;
+	color : white;
+	margin-top:auto;
+	font-size:20px;
+}
+.card-body a:hover{
+	text-decoration : none;
+	color : #008080;
+}
